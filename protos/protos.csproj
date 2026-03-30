@@ -5,6 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <!-- <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData> -->
   
   <ItemGroup>
     <Protobuf Include="Protos\greet.proto" GrpcServices="None" />

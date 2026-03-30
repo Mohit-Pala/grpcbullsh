@@ -14,4 +14,6 @@
   <ItemGroup>
     <ProjectReference Include="..\protos\protos.csproj" />
   </ItemGroup>
+
+  <!-- <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData> -->
 </Project>
