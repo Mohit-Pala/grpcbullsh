@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="clientbullsh/clientbullsh.csproj" />
+  <Project Path="protos/protos.csproj" />
+  <Project Path="serverbullsh/serverbullsh.csproj" />
+</Solution>

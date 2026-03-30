@@ -1,6 +1,6 @@
 using Grpc.Core;
 
-namespace serverbs.Services;
+namespace serverbullsh.Services;
 
 public class GreeterService(ILogger<GreeterService> logger) : Greeter.GreeterBase
 {
