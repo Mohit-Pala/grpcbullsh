@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "serverbullsh";
+option csharp_namespace = "Protobufs";
 
 package greet;
 
