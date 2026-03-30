@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Protobuf Include="..\protos\Protos\greet.proto" Link="Protos\greet.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\protos\protos.csproj" />
+  </ItemGroup>
 </Project>
