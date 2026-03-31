@@ -9,7 +9,7 @@
   <!-- <AllowMissingPrunePackageData>true</AllowMissingPrunePackageData> -->
   
   <ItemGroup>
-    <Protobuf Include="Protos\greet.proto" GrpcServices="None" />
+    <Protobuf Include="Protos\server_comm.proto" GrpcServices="None" />
   </ItemGroup>
   
   <ItemGroup>

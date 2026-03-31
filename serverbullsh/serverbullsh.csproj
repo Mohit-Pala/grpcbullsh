@@ -8,7 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="..\protos\Protos\greet.proto" Link="Protos\greet.proto" GrpcServices="Server" />
+    <!-- <Protobuf Include="..\protos\Protos\greet.proto" Link="Protos\greet.proto" GrpcServices="Server" /> -->
+    <Protobuf Include="..\protos\Protos\server_comm.proto" Link="Protos\server_comm.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>

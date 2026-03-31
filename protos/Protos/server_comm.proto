@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "Protobufs";
+
+package server_comm;
+
+//
+service ServerCommsService {
+  // 
+  rpc LookUp(stream EmptyServerCommRequest) returns (stream MessageServerCommResponse);
+  //
+  rpc Heartbeat(stream EmptyServerCommRequest) returns (stream MessageServerCommResponse);
+}
+
+message EmptyServerCommRequest {}
+
+message MessageServerCommResponse {
+  string msg = 1;
+  string is_heartbeat = 2;
+}
